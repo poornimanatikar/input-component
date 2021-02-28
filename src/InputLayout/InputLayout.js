@@ -12,6 +12,8 @@ function InputLayout() {
  const inputHeadingEight ='<Input size="md" />' ;
  const inputHeadingNine ='<Input fullWidth />' ;
  const inputHeadingTen ='<Input multiline rows="4" />';
+ const inputHeadingStart ='<Input startIcon />';
+ const inputHeadingEnd ='<Input endIcon />';
  return (
      <div className={styles.mainDiv}>
      <div>
@@ -44,10 +46,13 @@ function InputLayout() {
     </div>
     <div>
        <div>
-          <h4>{inputHeadingFive}</h4>
-          <Input error  label="Label" placeholder="Placeholder" helperText="Some Interesting Text" />
+          <h4>{inputHeadingStart}</h4>
+          <Input startIcon="phone"  label="Label" placeholder="Placeholder"  />
        </div>
-       
+       <div>
+          <h4>{inputHeadingEnd}</h4>
+          <Input endIcon="lock"  label="Label" placeholder="Placeholder"  />
+       </div>
     </div>
     <div>
        <div>

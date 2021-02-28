@@ -1,6 +1,16 @@
 .inputContainer {
     display: flex;
     flex-direction: column;
+    position: relative;
+    .startIcon {
+        position: absolute;
+        top: 35px;
+    }
+    .endIcon {
+        position: absolute;
+        top: 35px;
+        left: 160px;
+    }
 }
 input {
     font-size: 14px;
@@ -37,5 +47,10 @@ input {
 .fullWidth {
     input {
         width: 100%;
+    }
+}
+.padding {
+    input {
+        padding-left: 30px;
     }
 }
