@@ -1,0 +1,24 @@
+.page_container {
+    display: flex;
+}
+.container_left {
+    flex-basis: 25%;
+    background: #fafbfd;
+    li {
+        list-style: none;
+        margin: 10%;
+    }
+}
+.container_right {
+    flex-basis: 75%;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.logo {
+    font-family: Poppins;
+    font-weight: 800;
+    padding-left: 20%;
+}
